@@ -5,6 +5,13 @@
 
 <div class="row-fluid">
     <div class="span12">
+        <h2>About</h2>
+        <ul>
+            <li><a href="#team">Team and collaboration</a></li>
+            <li><a href="#project">Project design and data collection</a></li>
+            <li><a href="#credits">Acknowledgements</a></li>
+        </ul>
+
             <%util:section title="Team and collaboration" level="3" id="team">
             <p>
                 As the Principal Investigator, Henrik Liljegren was responsible for the overall project coordination and
