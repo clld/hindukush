@@ -109,6 +109,8 @@ def main(args):
                     param['id'],
                     id=param['id'],
                     name='{} [{}]'.format(param['name'], param['id']),
+                    sortkey=param['id'] if not param['id'].startswith('Numerals') else
+                    'Numerals-{0:03d}'.format(int(param['id'].split('-')[1])),
                     concepticon_id=param['concepticonReference'],
                     contribution=contrib,
                     category=param['domain'] or 'ASJPlist',

@@ -6,7 +6,7 @@ from clld.web.datatables.base import LinkCol, Col, LinkToMapCol, IdCol, DetailsR
 from clld.web.datatables.parameter import Parameters
 from clld.web.datatables.value import Values, RefsCol
 from clld.web.util.htmllib import HTML
-from clld.web.util.helpers import icon
+from clld.web.util.helpers import icon, link
 from clld.web.util import concepticon
 from clldutils.misc import dict_merged
 
@@ -52,6 +52,14 @@ def category_col(dt, **kw):
         **kw)
 
 
+class ParameterNameCol(LinkCol):
+    def order(self):
+        return models.Param.sortkey
+
+    def format(self, item):
+        return link(self.dt.req, item, label=item.name.split('[')[0])
+
+
 class Params(Parameters):
     __constraints__ = [common.Contribution]
 
@@ -74,7 +82,7 @@ class Params(Parameters):
                 ]
             elif self.contribution.id == 'Wordlist':
                 return [
-                    LinkCol(self, 'name'),
+                    ParameterNameCol(self, 'name'),
                     ConcepticonCol(self, 'concepticon'),
                     Col(self,
                         'category',

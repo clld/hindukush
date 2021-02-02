@@ -37,6 +37,7 @@ class CLDFDataset(CustomModelMixin, common.Contribution):
 @implementer(interfaces.IParameter)
 class Param(CustomModelMixin, common.Parameter):
     pk = Column(Integer, ForeignKey('parameter.pk'), primary_key=True)
+    sortkey = Column(Unicode)
     concepticon_id = Column(Unicode)
     category= Column(Unicode)
     contribution_pk = Column(Integer, ForeignKey('cldfdataset.pk'))

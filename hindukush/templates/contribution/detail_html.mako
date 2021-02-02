@@ -2,9 +2,9 @@
 <%namespace name="util" file="../util.mako"/>
 <%! active_menu_item = "contributions" %>
 
-<h2>${ctx.name}</h2>
 
 % if ctx.id == 'StructureDataset':
+    <h2>Features</h2>
     <p>
         A feature, as the term is used here, is a structural property of a language. A conscious choice was made to
         define features binary. That means that a given language is classified as either displaying a particular feature
@@ -31,6 +31,7 @@
         drawn from the data set.
     </p>
 % elif ctx.id == 'Wordlist':
+    <h2>Wordlist</h2>
     <p>
         The wordlist is mainly generated from the processed wordlists that were part of the elicitation package. That is
         reflected in the category labels: ASJPlist, Kinship and Numerals.
