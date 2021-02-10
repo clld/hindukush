@@ -54,7 +54,6 @@
     </div>
 </div>
 
-
 <div class="row-fluid">
     <div class="span12">
         <p>
@@ -70,10 +69,10 @@
             collaborative elicitation workshops were held in Islamabad in October 2015 and August 2016.
         </p>
         <p>
-            Samar, Afghanistan, is a non-governmental organization. It was established in 2009 and functions as a
-            resource centre for the many language communities throughout Afghanistan, offering training and support in
-            the area of mother-tongue education, literature development and language documentation. Three collaborative
-            elicitation workshops were held in Kabul and in Faizabad in April 2017.
+            Samar, Afghanistan. Samar is a non-governmental organization. It was established in 2009 and functions as a
+            resource centre for language communities throughout Afghanistan, offering training and support in the area
+            of mother-tongue education, literature development and language documentation. Two collaborative elicitation
+            workshops were held in Kabul and one in Faizabad in April 2017.
         </p>
         <p>
             Department of Linguistics, University of Kashmir, India. The department hosts a handful of linguistic
@@ -100,8 +99,8 @@
         <figure>
             <img class="img-polaroid" src="${req.static_url('hindukush:static/08_SrinagarWorkshop.JPG')}" width="100%">
             <figcaption>
-                Collaborative elicitation workshop in Srinagar (India),
-                April/May 2018: Afreen Nazir (Kashmiri), Mohd Mustafa (Purik)
+                Collaborative elicitation workshop in Srinagar (India), April/May 2018: Afreen Nazir (Kashmiri), Mohd
+                Mustafa (Purik)
             </figcaption>
         </figure>
     </div>
@@ -119,10 +118,9 @@
         <figure>
             <img class="img-polaroid" src="${req.static_url('hindukush:static/05_IslamabadWorkshop.JPG')}" width="100%">
             <figcaption>
-                Collaborative elicitation workshop in Islamabad (Pakistan),
-                August 2016: Shahid ur Rehman (Gojri), Raja Hasrat Khan (Hindko),
-                Ghulam Rauf Qurashi (Kundal Shahi), Dr. Uzma Anjum (Pothwari),
-                Luke Rehmat (Kalasha)
+                Collaborative elicitation workshop in Islamabad (Pakistan), August 2016: Shahid ur Rehman (Gojri), Raja
+                Hasrat Khan (Hindko), Ghulam Rauf Qurashi (Kundal Shahi), Dr. Uzma Anjum (Pothwari), Luke Rehmat
+                (Kalasha)
             </figcaption>
         </figure>
     </div>
@@ -136,15 +134,14 @@
     </div>
 </div>
 
-
 <div class="row-fluid">
     <div class="span12">
         <p>
-            In all, 79 native consultants, representing
-            <a href="${req.route_url('languages')}">59 language varieties</a> participated in the elicitation
-            workshops/sessions. These individuals offered plenty of linguistic and sociolinguistic insights in
-            interaction with the PI and with other participants, and contributed language data in audio and video
-            recording as well as through writing. To the extent they were able, the consultants made draft (mainly
+            Totally 79 native consultants, representing <a href="${req.route_url('languages')}">59 language varieties</a>,
+            participated
+            in the elicitation workshops/sessions. These individuals offered plenty of linguistic and sociolinguistic
+            insights in interaction with the PI and with other participants, and contributed language data in audio and
+            video recording as well as through writing. To the extent they were able, the consultants made draft (mainly
             non-IPA) transcriptions, translated portions of text into a language of wider communication, and provided
             word glosses.
         </p>
@@ -153,6 +150,10 @@
             related to the project under the supervision of the PI: Andrew Gomes, Nina Knobloch, Richard Kowalik, Noa
             Lange, Julia Lautin, Jane Ogawa, Vanessa Quasnik, Hanna (Kjellberg) Rönnqvist and Jacqueline Venetz. Those
             can be accessed in the digital archive of DiVA (Digitala Vetenskapliga Arkivet):
+            A number of students at the Department of Linguistics, Stockholm University, have carried out thesis work
+            related to the project under the supervision of the PI: Andrew Gomes, Nina Knobloch, Richard Kowalik, Noa
+            Lange, Julia Lautin, Jane Ogawa, Vanessa Quasnik, Hanna (Kjellberg) Rönnqvist and Jacqueline Venetz. Those
+            theses can be accessed in the digital archive of DiVA (Digitala Vetenskapliga Arkivet):
             <a href="https://su.diva-portal.org">su.diva-portal.org</a>.
         </p>
     </div>
@@ -160,8 +161,8 @@
 
 <%util:section title="Project design and data collection" level="3" id="project">
     <p>
-        With minor exceptions, the dataset collected in each language consisted of seven components: three word lists, a
-        sentence questionnaire, a translated parallel text, context-elicited demonstrative expressions, and a
+        With minor exceptions, the dataset collected in each language consisted of seven components: three word lists,
+        a sentence questionnaire, a translated parallel text, context-elicited demonstrative expressions, and a
         stimulus-based narrative. Apart from the elicitation materials and instructions in English, translations were
         made available in three major lingua francas: Urdu, Dari and Pashto.
     </p>
@@ -234,21 +235,21 @@
     </table>
     <p>
         For the large majority of language varieties (53 of 59), data collection was carried out in the context of a 4-5
-        days’ workshop, each involving consultants from 5-10 languages, in which the following procedure was followed:
-        the participants were given a basic introduction to one of the components, e.g. kinship terms, (if applicable)
-        they were given time to prepare themselves for recording (either individually or group-wise) by filling in a
-        word list or questionnaire in whatever style they preferred, they were then invited, each in turn, to a
-        (makeshift) recording studio to be audio or audio-and-video recorded, and after that a considerable amount of
-        time was spent in comparing and discussing particular pieces of data among the participants. All
-        consultant-produced written material were either saved electronically or photo-copied, to aid further
-        processing.
+        days’ workshop, each involving consultants from five or more languages, in which the following procedure was
+        followed: the participants were given a basic introduction to one of the components, e.g. kinship terms, (if
+        applicable) they were given time to prepare themselves for recording (either individually or group-wise) by
+        filling in a word list or questionnaire in whatever style they preferred, they were then invited, each in turn,
+        to a (makeshift) recording studio to be audio or audio-and-video recorded, and after that a considerable amount
+        of time was spent in comparing and discussing particular pieces of data among the participants. All
+        consultant-produced written material was either saved electronically or photo-copied, to aid further processing.
     </p>
     <p>
         Subsequent to data collection, the material was organized, selectively transcribed (using a broad IPA
         transcription), analyzed and coded. The data set allowed for classifying each variety according to 80 binary
         structural features, as presented and detailed under Features, with the cited examples drawn from various
         components of the set. The elicitation and processing of the three wordlists generated the data under Wordlists.
-        Much of the data remains to be fully annotated and is projected to become available on this site.
+        Much of the data remains to be fully annotated and is projected to become available on this site in future
+        installments.
     </p>
 </%util:section>
 

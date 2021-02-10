@@ -35,11 +35,10 @@
     geographically most salient feature is its mountainous environment, especially vis-à-vis the Indo-Gangetic plains
     situated south of it. While being a transit zone of sorts between the cultural spheres of South Asia, Central Asia,
     West Asia and the Himalayas, this is simultaneously the easternmost extension of Iranian languages, the northernmost
-    extension of Indo-Aryan languages as well as the westernmost extension of Tibeto-Burman (in itself part of
-    Sino-Tibetan). Apart from those three phylogenetic components, the region is also home to Nuristani, two Turkic
+    extension of Indo-Aryan languages as well as the westernmost extension of Sino-Tibetan.
+    Apart from those three phylogenetic components, the region is also home to Nuristani, at least two Turkic
     language enclaves and the language isolate Burushaski. These six major phylogenies of the linguistic landscape of
     the Hindu Kush will be introduced briefly.
-
 </p>
 
 <div id="map-container">
@@ -64,7 +63,7 @@
     varieties (such as Pahari-Pothwari and Hindko) are really part of a larger Punjabi continuum with an extension far
     south of the region, and as such probably have more in common with the closest main Indo-Aryan languages of the
     Indo-Pakistani plains than with most of the other Indo-Aryan varieties in the region. Gojri (Rajasthani) is the
-    language of nomadic or semi-nomadic Gujurs, today spoken in pockets throughout the region and beyond, with a
+    language of nomadic or semi-nomadic Gujurs, today a language spoken in pockets throughout the region and beyond, with a
     significant concentration in Kashmir, whereas its closest Rajasthani relatives are found at a considerable distance,
     deep into the main belt of Indo-Aryan
     (<a href="${req.route_url('source', id='sharmagojri2002')}">Sharma 2002: 44–45</a>).
@@ -74,14 +73,13 @@
     (<a href="${req.route_url('source', id='weinreichdomaaki2011')}">Weinreich 2011: 165–166</a>).
     Like Gojri, its closest relatives are to be found in the plains of North India.
 </p>
-
 <p>
     <b>Iranian</b> is the second largest component, if counted in number of distinct language varieties. Most of those
-    languages are spoken in the western part of the region, primarily in Afghanistan, but also in Pakistan and in
+    languages are spoken in the western half of the region, primarily in Afghanistan, but also in Pakistan and in
     adjacent areas of Tajikistan and China. A number of them are spoken next to Indo-Aryan languages, and patterns of
     bilingualism involving Indo-Aryan and Iranian alike have most likely existed for a prolonged period. While the
     various varieties and sub-varieties of Dari (Afghan Persian) or Tajik that are spoken in the region are considered
-    Western Iranian, all the other Iranian language varieties are Eastern
+    Western Iranian, all the other Iranian language varieties represented here are Eastern
     (<a href="${req.route_url('source', id='schmittmodern1989')}">Skjaervø 1989: 370</a>).
     Pashto, the
     numerically dominant of those and also the geographically most wide-spread, is distantly related to the so-called
@@ -96,8 +94,8 @@
     (<a href="${req.route_url('source', id='schmittmodern1989')}">Skjaervø 1989: 370</a>;
     <a href="${req.route_url('source', id='kiefferparachi2009')}">Kieffer 2009: 693</a>;
     <a href="${req.route_url('source', id='morgenstiernereport1926')}">Morgenstierne 1926: 27–28</a>).
-    It is only closely related to one other Iranian language, namely Ormuri, a small
-    linguistic island surrounded by Pashto in Pakistan’s Waziristan area.
+    Parachi is only closely related to one other Iranian language, namely Ormuri, a small linguistic island
+    surrounded by Pashto in Pakistan’s Waziristan area.
 </p>
 
 <p>
@@ -118,11 +116,11 @@
 </p>
 
 <p>
-    <b>Tibeto-Burman</b> (in its turn part of Sino-Tibetan) is present in the eastern-most part of the Hindu Kush region
+    <b>Sino-Tibetan</b> is present in the eastern-most part of the Hindu Kush region
     (as
     defined above), in Pakistan’s Baltistan and in Ladakh on the Indian side of the so-called Line-Of-Control. The 3-4
     varieties represented are all part of a Western Tibetic grouping and forms the geographic westernmost fringe of a
-    phylogenetic entity comprising hundreds of languages spoken throughout the highlands of South East Asia. The two
+    phylogenetic entity comprising hundreds of languages spoken throughout the highlands of South East Asia and beyond. The two
     with one another closely related language varieties Balti and Purik are in comparison with Tibetan in general
     considered particularly archaic
     (<a href="${req.route_url('source', id='bielmeiermarchen1985')}">Bielmeier 1985: 14–15</a>),
@@ -199,13 +197,13 @@
 
 <p>
     In the present study, we collected and analyzed comparable primary data from a very tight sample of 59 Hindu
-    Kush-Karakoram language varieties (for practical reasons limited to Afghanistan, Pakistan and India). All six
-    phylogenies were represented, as were most of the relevant subgroupings. For some of the languages spoken across
+    Kush-Karakoram language varieties (for practical reasons limited to Afghanistan, Pakistan and India). All the six
+    phylogenies referred to above were represented, as were most of the relevant subgroupings. For some of the languages spoken across
     international borders we aimed at representing such a language as used in these different countries. Unfortunate
     circumstances and a tight schedule made it impossible to collect data from a few languages that were initially
     targeted, such as Domaaki (Indo-Aryan), Chilisso (Indo-Aryan), Pothwari-Pahari as spoken in Kashmir (Indo-Aryan),
     Poguli Kashmiri (Indo-Aryan), and Tregami (Nuristani). A few other languages previously listed for the region are
-    most likely moribund or no longer used, such as Tirahi (Indo-Aryan), Grangali (Indo-Aryan), Shumashti (Indo-Aryan),
+    most likely moribund or spoken by only a few individuals, such as Tirahi (Indo-Aryan), Grangali (Indo-Aryan), Shumashti (Indo-Aryan),
     and Gowro (Indo-Aryan)
 </p>
 
@@ -213,13 +211,13 @@
     The data collected allowed for setting up a basic word list of comparable meanings (representing kinship, numerals,
     basic actions, substances and objects) as well as for classifying each variety according to a number of binary
     structural features (reflecting phonological, morphological, syntactic and lexico-semantic properties). As is
-    expanded on in publications yet to appear, a comparison of the basic lexicon across the languages lines up closely
+    expanded on in publications yet to appear, a comparison of the basic lexicon across theses languages lines up closely
     with established phylogenetic classification, whereas clustering of structural similarity is clearly related to
     geographical proximity within the region and often cuts across phylogenetic boundaries. The strongest evidence of
     areality tied to the region itself (vis-à-vis South Asia in general on the one hand and Central/West Asia on the
     other) relates to phonology and lexical structure, whereas word order and alignment features mostly place the
-    region’s languages within a larger areal or macro-areal distribution, and many morphological features or properties
-    related to grammatical categorization (e.g. gender) display a high degree of genetic stability.
+    region’s languages within larger areal or macro-areal distributions. Some morphological properties related to
+    grammatical categorization (e.g. gender) display a high degree of genetic stability.
 </p>
 
 <div id="table-container">

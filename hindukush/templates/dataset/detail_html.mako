@@ -25,13 +25,13 @@
     a mountainous area in north-eastern Afghanistan, northern Pakistan and the northern parts of
     the Indian-administered territories of Jammu & Kashmir and Ladakh. The region is characterized
     by great linguistic diversity. More than 50 languages, including Indo-Aryan, Iranian,
-    Nuristani, Tibeto-Burman (Sino-Tibetan), Turkic and the isolate Burushaski, are spoken here.
+    Nuristani, Sino-Tibetan, Turkic and the isolate Burushaski, are spoken here.
     The region has served for centuries as a transit zone between different culture spheres
     and rival empires. Although a gold mine for the study of language contact and areal phenomena,
     political circumstances have made it less accessible and relatively unexplored, as compared
-    to many other linguistically rich areas of the world. It is believed that the conclusions
-    we can draw regarding lexical and structural similarities or differences will be of importance
-    for more detailed language classification and for gaining a clearer understanding of the
+    to many other linguistically rich areas of the world. We believe that conclusions
+    regarding lexical and structural similarities or differences will be of importance
+    for a more detailed language classification and for gaining a clearer understanding of the
     effects of long-lasting language contact, both in the Hindu Kush and in general.
 </p>
 
@@ -59,7 +59,7 @@
     and the prevalence of vigesimal numeral systems. Those and a range of other features have been
     subject to systematic primary data collection and analysis. Apart from producing a searchable
     database and feature maps, as reflected in this site, and publishing papers summarizing the
-    results, the purpose has been to encourage and aid documentation and revitalization efforts
+    results, the purpose is to encourage and aid documentation and revitalization efforts
     in the many languages of the region that are little documented as well as greatly endangered.
 </p>
 
@@ -92,5 +92,7 @@
     Cite this resource as:
 </p>
 <blockquote>
-    Liljegren, Henrik & Forkel, Robert & Knobloch, Nina & Lange, Noa. 2020. Hindu Kush Areal Typology. Jena: Max Planck Institute for the Science of Human History. (Available online at http://hindukush.clld.org, Accessed on 1 December 2020.)
+    Liljegren, Henrik & Forkel, Robert & Knobloch, Nina & Lange, Noa. 2020. Hindu Kush Areal Typology.
+    ## FIXME: Zenodo citation and DOI
+    (Available online at http://hindukush.clld.org)
 </blockquote>
