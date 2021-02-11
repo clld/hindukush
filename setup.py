@@ -19,13 +19,12 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'html5lib',
         'pycldf>=1.17',
         'clld>=7.4',
         'bs4',
         'clld-glottologfamily-plugin>=4.0',
         'pyglottolog',
-
-
         'clldmpg',
 
 ],

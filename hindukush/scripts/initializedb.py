@@ -1,12 +1,10 @@
 import re
 import pathlib
-import itertools
 import collections
 
 from pycldf import Sources
 from nameparser import HumanName
 from clldutils.misc import nfilter, slug
-from clldutils.color import qualitative_colors
 from clld.cliutil import Data, bibtex2source
 from clld.db.meta import DBSession
 from clld.db.models import common
@@ -26,14 +24,14 @@ subgroup_shapes = {
 }
 
 
-def html(s):
+def html(s):  # pragma: no cover
     return s
     s = re.sub(r'\*-\*\*(?P<bold>[a-z]+)\*\*\*', lambda m: '***-{}***'.format(m.group('bold')), s)
     s = re.sub(r'^\((?P<number>[0-9]+)\)\s+', lambda m: '{}. '.format(m.group('number')), s)
     return markdown(s, extensions=['tables', 'fenced_code'])
 
 
-def main(args):
+def main(args):  # pragma: no cover
     #
     # FIXME: more generic:
     # - run iter_datasets(args.cldf) -> assuming args.cldf is a directory! -> must go in clld!

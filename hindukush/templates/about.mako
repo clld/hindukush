@@ -176,7 +176,7 @@
         </thead>
         <tbody>
         <tr>
-            <td><a href="${req.route_url('contribution', id='Wordlist', _query=dict(sSearch_2='ASJPlist'))}">40-list</a>
+            <td><a href="${req.route_url('contribution', id='Wordlist', _query=dict(sSearch_2='ASJPlist'))}">40-list [40list]</a>
             </td>
             <td>Word list including the 40 basic vocabulary items used by ASJP
                 <a href="${req.route_url('source', id='wichmann_asjp_2018')}">(Wichmann, Holman & Brown 2016)</a>
@@ -184,14 +184,14 @@
             <td>Written (mostly Arabic-based)+audio</td>
         </tr>
         <tr>
-            <td><a href="${req.route_url('contribution', id='Wordlist', _query=dict(sSearch_2='Kinship'))}">Kinship</a>
+            <td><a href="${req.route_url('contribution', id='Wordlist', _query=dict(sSearch_2='Kinship'))}">Kinship [Kin]</a>
             </td>
             <td>Word list including 95 kin relations, designed by the PI</td>
             <td>Written+audio</td>
         </tr>
         <tr>
             <td>
-                <a href="${req.route_url('contribution', id='Wordlist', _query=dict(sSearch_2='Numerals'))}">Numerals</a>
+                <a href="${req.route_url('contribution', id='Wordlist', _query=dict(sSearch_2='Numerals'))}">Numerals [Num]</a>
             </td>
             <td>Word list including the cardinal numerals 1-50, 60, 70, 80, 90, 110, 120, 200, 1000</td>
             <td>Written+audio</td>
