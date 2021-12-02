@@ -21,11 +21,11 @@ setup(
     install_requires=[
         'html5lib',
         'pycldf>=1.17',
-        'clld>=7.4',
+        'clld>=8',
         'bs4',
         'clld-glottologfamily-plugin>=4.0',
         'pyglottolog',
-        'clldmpg',
+        'clldmpg>=4.2',
 
 ],
 extras_require={
