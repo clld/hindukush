@@ -25,7 +25,7 @@ setup(
         'bs4',
         'clld-glottologfamily-plugin>=4.0',
         'pyglottolog',
-        'clldmpg>=4.2',
+        'clldmpg>=4.3',
 
 ],
 extras_require={

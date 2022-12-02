@@ -50,10 +50,9 @@ def main(args):  # pragma: no cover
         id=hindukush.__name__,
         name='Hindu Kush Areal Typology',
         domain='hindukush.clld.org',
-
-        publisher_name="Max Planck Institute for the Science of Human History",
-        publisher_place="Jena",
-        publisher_url="http://www.shh.mpg.de",
+        publisher_name="Max Planck Institute for Evolutionary Anthropology",
+        publisher_place="Leipzig",
+        publisher_url="http://www.eva.mpg.de",
         license="http://creativecommons.org/licenses/by/4.0/",
         jsondata={
             'license_icon': 'cc-by.png',
@@ -114,7 +113,7 @@ def main(args):  # pragma: no cover
                     category=param['domain'] or 'ASJPlist',
                 )
 
-            audio = {r['ID']: r for r in ds.iter_rows('media.csv') if r['mimetype'] == 'audio/mpeg'}
+            audio = {r['ID']: r for r in ds.iter_rows('MediaTable') if r['Media_Type'] == 'audio/mpeg'}
             for form in ds.iter_rows('FormTable', 'id', 'form', 'languageReference', 'parameterReference',
                                      'source'):
                 vsid = (form['languageReference'], form['parameterReference'])
@@ -138,7 +137,7 @@ def main(args):  # pragma: no cover
                     id=form['id'],
                     name=form['form'],
                     valueset=vs,
-                    jsondata=dict(audio=ds.get_row_url('media.csv', mp3) if mp3 else None),
+                    jsondata=dict(audio=ds.get_row_url('MediaTable', mp3) if mp3 else None),
                 )
         elif module == 'StructureDataset':
             for param in ds.iter_rows('ParameterTable', 'id', 'name', 'description'):
