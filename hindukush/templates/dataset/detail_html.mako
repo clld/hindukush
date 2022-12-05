@@ -92,7 +92,7 @@
     Cite this resource as:
 </p>
 <blockquote>
-    Henrk Liljegren, Robert Forkel, Nina Knobloch, & Noa Lange. (2021). Hindu Kush Areal Typology (Version v1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4534221
+    Henrik Liljegren, Robert Forkel, Nina Knobloch, & Noa Lange. (2021). Hindu Kush Areal Typology (Version v1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.4534221
     <br>
     <a href="https://doi.org/10.5281/zenodo.4534221"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4534221.svg" alt="DOI"></a>
 </blockquote>
