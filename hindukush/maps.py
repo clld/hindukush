@@ -11,7 +11,7 @@ class LanguagesMap(Map):
         return {
             'max_zoom': 12,
             'resize_direction': 's',
-            'base_layer': 'Stamen.Terrain'}
+        }
 
     def get_layers(self):
         yield Layer(
@@ -48,7 +48,6 @@ class ParamMap(ParameterMap):
             'with_audioplayer': self.ctx.contribution.id == 'Wordlist',
             'resize_direction': 's',
             'max_zoom': 12,
-            'base_layer': 'Stamen.Terrain',
             'show_labels': self.ctx.contribution.id == 'Wordlist',
         }
 
