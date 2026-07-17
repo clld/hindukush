@@ -131,17 +131,15 @@ def main(args):  # pragma: no cover
                     sid, pages = Sources.parse(ref)
                     refs[(vsid, sid)].append(pages)
                 mp3 = next(iter([audio[aid] for aid in form['Audio_Files'] if aid in audio]), None)
-                audio_url = None
                 if mp3:
-                    audio_url = ds.get_row_url('MediaTable', mp3).split('/')
-                    audio_url = f'/files/{audio_url[-2]}_{audio_url[-1]}'
+                    mp3 = f'https://s3.nexus.mpcdf.mpg.de/eva-dlce-hindukush/{mp3["ID"]}.mp3'
                 data.add(
                     common.Value,
                     form['id'],
                     id=form['id'],
                     name=form['form'],
                     valueset=vs,
-                    jsondata=dict(audio=audio_url),
+                    jsondata=dict(audio=mp3),
                 )
         elif module == 'StructureDataset':
             for param in ds.iter_rows('ParameterTable', 'id', 'name', 'description'):
